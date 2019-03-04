@@ -31,7 +31,7 @@ module CarrierWave
       # [String] a filename
       #
       def filename
-        @filename
+        "#{Time.now}"
       end
 
       ##
